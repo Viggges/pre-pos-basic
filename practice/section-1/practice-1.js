@@ -1,5 +1,10 @@
 'use strict';
 
 function find(collection, element) {
-  return '实现练习要求，并改写该行代码。';
+  if(collection.indexOf(element)!==-1){
+    return collection[collection.indexOf(element)];
+  }else{
+    return '找不到';
+  }
+  
 }
